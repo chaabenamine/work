@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0; /* Remove any default margin */
+}
+.btn{
+  background-color: #FF6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: white;
+    display: none; /* Hide sidebar to focus on the login form */
+}
+
+.main-content {
+    width: 100%; /* Use full width for the content area */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the login form inside */
+}
+
+.login-section {
+    background: white;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%; /* Ensures it doesn't overflow */
+}
+
+input[type="text"], 
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #FF6600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.separator {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
+
+.social-icons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #666;
+}
+
+.create-account {
+    margin-top: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin: 15px 0;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.checkbox-group {
+    margin: 15px 0;
+}
+
+.promo-text {
+    margin-top: 30px;
+    color: #666;
+    line-height: 1.6;
+}

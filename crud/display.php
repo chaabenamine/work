@@ -16,14 +16,15 @@ include('../includes/db.php');
 <body>
     <div class="container">
         <button class="btn btn-primary my-5"><a href="user.php" class="text-light">add user</a></button>
+        <button class="btn btn-primary my-5"><a href="../logout.php" class="text-light"> logout</a></button>
         <table class="table table-hover">        <thead>
     <tr>
       <th scope="col">id</th>
-      <th scope="col">Prénom</th>
-      <th scope="col">Nom</th>
-      <th scope="col">Adresse E-mail</th>
-      <th scope="col">Numéro de contact</th>
-      <th scope="col">Opérations</th>
+      <th scope="col">First name</th>
+      <th scope="col">Last name</th>
+      <th scope="col">E-mail address</th>
+      <th scope="col">Contact number</th>
+      <th scope="col">Operations</th>
 
     </tr>
   </thead>
@@ -62,5 +63,6 @@ include('../includes/db.php');
   </tbody>
 </table>
     </div>
+    
 </body>
 </html>
