@@ -39,20 +39,20 @@ if(isset($_POST['submit'])){
     <div class="container my-5">
     <form method="post">
   <div class="form-group">
-    <label >Prénom</label>
-    <input type="text" class="form-control" placeholder="Prénom *" id="fName" name="fName" autocomplete="off" >
+    <label >FirstName</label>
+    <input type="text" class="form-control" placeholder="FirstName*" id="fName" name="fName" autocomplete="off" required>
   </div>
   <div class="form-group">
-    <label >Nom</label>
-    <input type="text" class="form-control" placeholder="Nom *" id="lName" name="lName"  autocomplete="off">
+    <label >LastName</label>
+    <input type="text" class="form-control" placeholder="LastName*" id="lName" name="lName"  autocomplete="off" required>
   </div>
   <div class="form-group">
-    <label >Adresse E-mail </label>
-    <input type="text" class="form-control" placeholder="Adresse E-mail *" id="email" name="email" autocomplete="off" >
+    <label >E-mail Address</label>
+    <input type="text" class="form-control" placeholder="E-mail Address*" id="email" name="email" autocomplete="off" required>
   </div>
   <div class="form-group">
-    <label >Numéro de contact </label>
-    <input type="tel" class="form-control" placeholder="Numéro de contact *" id="phone" name="phone"  autocomplete="off">
+    <label >Contact Number</label>
+    <input type="tel" class="form-control" placeholder="Contact Number*" id="phone" name="phone"  autocomplete="off" required>
   </div>
   <button type="submit" name="submit" class="btn btn-primary">Add</button>
 </form>

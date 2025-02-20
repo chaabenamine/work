@@ -42,20 +42,20 @@ if(isset($_POST['submit'])){
     <div class="container my-5">
     <form method="post">
   <div class="form-group">
-    <label >Prénom</label>
-    <input type="text" class="form-control" placeholder="Prénom *" id="fName" name="fName" autocomplete="off" value=<?php echo $FirstName ?> >
+    <label >FirstName</label>
+    <input type="text" class="form-control" placeholder="FirstName*" id="fName" name="fName" autocomplete="off" value=<?php echo $FirstName ?> required>
   </div>
   <div class="form-group">
-    <label >Nom</label>
-    <input type="text" class="form-control" placeholder="Nom *" id="lName" name="lName"  autocomplete="off"value=<?php echo $LastName ?>>
+    <label >LastName</label>
+    <input type="text" class="form-control" placeholder="LastName*" id="lName" name="lName"  autocomplete="off"value=<?php echo $LastName ?> required>
   </div>
   <div class="form-group">
-    <label >Adresse E-mail </label>
-    <input type="text" class="form-control" placeholder="Adresse E-mail *" id="email" name="email" autocomplete="off" value=<?php echo $email ?>>
+    <label >E-mail Address</label>
+    <input type="text" class="form-control" placeholder="E-mail Address*" id="email" name="email" autocomplete="off" value=<?php echo $email ?> required>
   </div>
   <div class="form-group">
-    <label >Numéro de contact </label>
-    <input type="tel" class="form-control" placeholder="Numéro de contact *" id="phone" name="phone"  autocomplete="off"value=<?php echo $PhoneNumber ?>>
+    <label >Contact Number </label>
+    <input type="tel" class="form-control" placeholder="Contact Number*" id="phone" name="phone"  autocomplete="off"value=<?php echo $PhoneNumber ?> required>
   </div>
   <button type="submit" name="submit" class="btn btn-primary">update</button>
 </form>
