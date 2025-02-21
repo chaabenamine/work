@@ -111,3 +111,10 @@ td {
     color: #666;
     line-height: 1.6;
 }
+.logo {
+    position: absolute;  /* Position absolue pour le placer librement */
+    top: 10px;           /* Distance de 10px du haut */
+    left: 10px;          /* Distance de 10px de la gauche */
+    width: 100px;        /* Taille du logo (ajuste selon ton besoin) */
+    height: auto;        /* Hauteur ajustée automatiquement */
+}

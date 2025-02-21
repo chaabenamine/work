@@ -16,7 +16,7 @@ body {
 
 .button-group {
     margin-bottom: 20px;
-    display: flex;
+    display: flex; 
     gap: 15px; /* Ensures space between buttons */
     flex-wrap: wrap;
 }
@@ -25,6 +25,7 @@ body {
     padding: 8px 16px;
     font-size: 14px;
     border: none;
+
     border-radius: 6px;
     cursor: pointer;
     text-decoration: none;
@@ -118,4 +119,13 @@ a:hover {
         width: 100%;
         text-align: center;
     }
+    
+}
+
+.logo {
+    position: absolute;  /* Position absolue pour le placer librement */
+    top: 10px;           /* Distance de 10px du haut */
+    left: 10px;          /* Distance de 10px de la gauche */
+    width: 100px;        /* Taille du logo (ajuste selon ton besoin) */
+    height: auto;        /* Hauteur ajustée automatiquement */
 }

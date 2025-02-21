@@ -36,6 +36,10 @@ if(isset($_POST['submit'])){
     <title>crud operation</title>
   </head>
   <body>
+  <a href="display.php">
+    <img src="../img/oran.png" alt="Retour à la page principale" class="logo">
+  </a>
+
     <div class="container my-5">
     <form method="post">
   <div class="form-group">
@@ -48,11 +52,11 @@ if(isset($_POST['submit'])){
   </div>
   <div class="form-group">
     <label >E-mail Address</label>
-    <input type="text" class="form-control" placeholder="E-mail Address*" id="email" name="email" autocomplete="off" required>
+    <input type="text" class="form-control" placeholder="E-mail Address*" id="email" name="email" autocomplete="off" required >
   </div>
   <div class="form-group">
-    <label >Contact Number</label>
-    <input type="tel" class="form-control" placeholder="Contact Number*" id="phone" name="phone"  autocomplete="off" required>
+    <label >Contact number</label>
+    <input type="tel" class="form-control" placeholder="Contact number*" id="phone" name="phone"  autocomplete="off" required>
   </div>
   <button type="submit" name="submit" class="btn btn-primary">Add</button>
 </form>

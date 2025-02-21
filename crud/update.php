@@ -39,23 +39,26 @@ if(isset($_POST['submit'])){
     <title>crud operation</title>
   </head>
   <body>
+  <a href="display.php">
+    <img src="../img/oran.png" alt="Retour à la page principale" class="logo">
+  </a>
     <div class="container my-5">
     <form method="post">
   <div class="form-group">
     <label >FirstName</label>
-    <input type="text" class="form-control" placeholder="FirstName*" id="fName" name="fName" autocomplete="off" value=<?php echo $FirstName ?> required>
+    <input type="text" class="form-control" placeholder="FirstName*" id="fName" name="fName" autocomplete="off" value=<?php echo $FirstName ?> >
   </div>
   <div class="form-group">
     <label >LastName</label>
-    <input type="text" class="form-control" placeholder="LastName*" id="lName" name="lName"  autocomplete="off"value=<?php echo $LastName ?> required>
+    <input type="text" class="form-control" placeholder="LastName*" id="lName" name="lName"  autocomplete="off"value=<?php echo $LastName ?>>
   </div>
   <div class="form-group">
-    <label >E-mail Address</label>
-    <input type="text" class="form-control" placeholder="E-mail Address*" id="email" name="email" autocomplete="off" value=<?php echo $email ?> required>
+    <label >E-mail Address </label>
+    <input type="text" class="form-control" placeholder="E-mail Address*" id="email" name="email" autocomplete="off" value=<?php echo $email ?>>
   </div>
   <div class="form-group">
-    <label >Contact Number </label>
-    <input type="tel" class="form-control" placeholder="Contact Number*" id="phone" name="phone"  autocomplete="off"value=<?php echo $PhoneNumber ?> required>
+    <label >Contact number</label>
+    <input type="tel" class="form-control" placeholder="Contact number*" id="phone" name="phone"  autocomplete="off"value=<?php echo $PhoneNumber ?>>
   </div>
   <button type="submit" name="submit" class="btn btn-primary">update</button>
 </form>

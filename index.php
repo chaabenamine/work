@@ -11,6 +11,7 @@
     
 
     <div class="main-content">
+        <img src="img/oran.png" alt="Mon Logo" class="logo">
         <!-- Login Form -->
         <div class="login-section" id="signIn">
             <h2>Login</h2>

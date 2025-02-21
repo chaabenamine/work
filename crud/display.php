@@ -11,11 +11,16 @@ include('../includes/db.php');
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+    <img src="../img/oran.png" alt="Mon Logo" class="logo">
     <div class="container">
-        <div class="button-group">
-            <button class="btn btn-primary"><a href="user.php" >Add User</a></button>
-            <button class="btn btn-primary"><a href="../logout.php">Logout</a></button>
-        </div>
+        <table>
+            <tr>
+                <td style="width: 1500px;"></td>
+                <td > <button class="btn btn-primary"><a href="user.php" >Add User</a></button></td>
+                <td> <button class="btn btn-primary"><a href="../logout.php">Logout</a></button> </td>        
+            </tr>
+        </table> 
+        
 
         <table>
             <thead class="table-header">
@@ -41,7 +46,7 @@ include('../includes/db.php');
                             <td>'.$row['email'].'</td>
                             <td>'.$row['PhoneNumber'].'</td>
                             <td>
-                                <button class="btn btn-primary"><a href="update.php?updateid='.$row['Id'].'">Update</a></button>
+                                <button class="btn btn-primary"><a href="update.php?updateid='.$row['Id'].'">Update</a></button></br>
                                 <button class="btn btn-danger"><a href="delete.php?deleteid='.$row['Id'].'">Delete</a></button>
                             </td>
                         </tr>';
